@@ -1,0 +1,20 @@
+{
+    "name": "julien/components",
+    "description": "Independents php components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Sergent",
+            "email": "sergent.julien@icloud.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.17"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Components\\": "vendor/components/"
+        }
+    }
+}
